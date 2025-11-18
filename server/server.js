@@ -11,7 +11,7 @@ const app = express();
 
 // CORS first
 app.use(cors({
-  origin: 'http://localhost:5173',
+  origin: 'https://blog-website-ik7h.vercel.app',
   credentials: true,
 }));
 
